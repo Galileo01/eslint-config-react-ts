@@ -5,8 +5,9 @@
   "repository": "github:nodejscn/node-api-cn",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "link": "npm link",
-    "publish:push": "git checkout main && git push && npm run publish --access public"
+    "publish:push": "git checkout main && git push && npm  publish --access public"
   },
   "keywords": [
     "eslint",
@@ -22,8 +23,10 @@
   "author": "Galileo01 https://github.com/Galileo01",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
+    "commitlint": "^16.2.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^16.1.1",
     "eslint-config-prettier": "^8.5.0",
@@ -31,7 +34,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4"
   },
   "dependencies": {}
 }
