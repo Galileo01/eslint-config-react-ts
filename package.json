@@ -1,0 +1,37 @@
+{
+  "name": "@galileo01/eslint-config-react-ts",
+  "version": "1.0.0",
+  "description": "custom ESLint config, for react and ts, depends on airbnb、plugin-react、plugin-prettier and so on",
+  "repository": "github:nodejscn/node-api-cn",
+  "main": "index.js",
+  "scripts": {
+    "link": "npm link",
+    "publish:push": "git checkout main && git push && npm run publish --access public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "react",
+    "ts",
+    "custom"
+  ],
+  "author": "Galileo01 https://github.com/Galileo01",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "dependencies": {}
+}
