@@ -2,24 +2,14 @@
   "name": "@galileo01/eslint-config-react-ts",
   "version": "1.0.0",
   "description": "custom ESLint config, for react and ts, depends on airbnb、plugin-react、plugin-prettier and so on",
-  "repository": "github:nodejscn/node-api-cn",
+  "repository": "https://github.com/Galileo01/eslint-config-react-ts",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
     "link": "npm link",
     "publish:push": "git checkout main && git push && npm  publish --access public"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "airbnb",
-    "javascript",
-    "styleguide",
-    "react",
-    "ts",
-    "custom"
-  ],
+  "keywords": ["eslint", "eslintconfig", "config", "airbnb", "javascript", "styleguide", "react", "ts", "custom"],
   "author": "Galileo01 https://github.com/Galileo01",
   "license": "MIT",
   "devDependencies": {
