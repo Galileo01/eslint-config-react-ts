@@ -1,6 +1,6 @@
 {
   "name": "@galileo01/eslint-config-react-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "custom ESLint config, for react and ts, depends on airbnb、plugin-react、plugin-prettier and so on",
   "repository": "https://github.com/Galileo01/eslint-config-react-ts",
   "main": "index.js",
