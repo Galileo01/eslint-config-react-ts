@@ -50,5 +50,15 @@ module.exports = {
         format: ['camelCase', 'PascalCase', 'UPPER_CASE', 'snake_case'],
       },
     ],
+    // 自定义组件 允许 使用扩展运算符  传递 props
+    'react/jsx-props-no-spreading': [
+      1,
+      {
+        custom: 'ignore',
+      },
+    ],
+    // 以下两条 关闭 对于 执行无障碍标准 的强制校验
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
   },
 };
